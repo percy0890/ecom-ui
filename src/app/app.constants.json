@@ -1,0 +1,80 @@
+{
+  "INVALID": "invalid",
+  "E403": "403",
+  "E404": 404,
+  "NOT_AVAILABLE": "N/A",
+  "TRIP_STATUS": {
+    "UNASSIGNED": "unassigned",
+    "CREATED": "created",
+    "ASSIGNED": "assigned",
+    "REASSIGNED": "reassigned",
+    "ENROUTE": "enroute",
+    "ONGOING": "ongoing",
+    "CANCELLED": "cancelled",
+    "COMPLETED": "completed",
+    "AT_LAST_DESTINATION": "at_last_destination",
+    "ON_THE_WAY": "on_the_way",
+    "AT_FIRST_PICKUP": "at_first_pickup",
+    "TERMINATED": "terminated"
+  },
+  "EVENTS": {
+    "TRIP_INCIDENT": "EMERGENCY_ALERT",
+    "TRIP_CANCELLED": "TRIP_CANCELLED",
+    "TRIP_RESCUE": "TRIP_RESCUE",
+    "TRIP_TERMINATE": "TRIP_TERMINATE",
+    "TRIP_COMPLETED": "DRIVER_COMPLETED_RIDE",
+    "TRIP_PAX_NO_SHOW": "TRIP_PAX_NO_SHOW",
+    "TRIP_ASSIGNED": "TRIP_ASSIGNED",
+    "TRIP_CREATED": "TRIP_CREATED",
+    "TRIP_ENROUTE": "DRIVER_NAVIGATE_TO_PICKUP",
+    "TRIP_ON_THE_WAY": "DRIVER_NAVIGATE_TO_PICKUP",
+    "TRIP_AT_FIRST_PICKUP": "DRIVER_ARRIVED_AT_PICKUP",
+    "TRIP_ONGOING": "DRIVER_START_RIDE",
+    "TRIP_AT_LAST_DESTINATION": "DRIVER_REACHED_DESTINATION",
+    "TRIP_AT_RISK_NOTIFY": "TRIP_AT_RISK_NOTIFY"
+  },
+  "MAX_TIME_PERIOD_IN_MONTHS": 6,
+  "NOTIFICATION_TOPIC": {
+    "INCIDENT_ALERT": "INCIDENT_ALERT",
+    "ALLOCATION_BATCH_COMPLETED": "ALLOCATION_BATCH_COMPLETED"
+  },
+  "TOASTR_TIMEOUT_IN_SECS": 8,
+  "SEGMENT_TYPES": {
+    "TRIP": "trip"
+  },
+  "GLOBAL_ERRORS": {
+    "TITLE": {
+      "DATA_ERROR": "Data Error",
+      "SERVER_ERROR": "Server Error",
+      "ERROR": "Error"
+    },
+    "MESSAGE": {
+      "DATA_ERROR": "Please contact administrator.",
+      "SERVER_ERROR": "Please contact administrator",
+      "ERROR": "Please contact administrator",
+      "TRIP_DURATION_ERROR": "Trip duration must be less than or equal to 3 hours."
+    }
+  },
+  "API_WAIT_TIME": 20000,
+  "CLICK_TYPE": {
+    "SELECT": "SELECT",
+    "EXPAND": "EXPAND"
+  },
+  "SUB_TRIP_TYPE": {
+    "PICKUP": "PICKUP",
+    "DROP": "DROP"
+  },
+  "SHIFT_TYPE": {
+    "LOGIN": "LOGIN",
+    "LOGOUT": "LOGOUT"
+  },
+  "ROUTES": {
+    "CREATE_TRIPS": "/createTrips",
+    "FILTER_TRIPS": "/filterTrips",
+    "PLAN_TRIPS": "/planTrips",
+    "OPEN_TRIPS": "/openTrips",
+    "PAST_TRIPS": "/pastTrips"
+  },
+  "DATE_FORMAT": "DD/MM/YYYY",
+  "ONEDAY_TIMESTAMP": 86400000
+}

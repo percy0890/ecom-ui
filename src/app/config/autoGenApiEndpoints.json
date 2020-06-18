@@ -1,0 +1,23 @@
+{
+  "GET_DEVICE_TOKEN": "device",
+  "VEHICLES_MASTER_BY_SITE": "vehicle/search",
+  "DRIVERS_MASTER_BY_SITE": "driver/search",
+  "VENDORS_MASTER_BY_SITE": "vendor/search",
+  "UPDATE_USER_SITE": "users",
+  "LOGOUT_USER": "oauth/logout",
+  "EVENTS_PUBLISH": "events/publish",
+  "TRIPS_SEARCH": "trips/search",
+  "TRIP_DETAIL": "trips",
+  "ASSIGN_TRIP": "trips/assign",
+  "CANCEL_TRIP": "trips/cancel/",
+  "UNASSIGN_TRIP": "trips/unassign",
+  "GET_BATCH_OBJ": "allocate/run-allocation",
+  "GET_RECOMMENDATIONS": "allocate/recommendations/batch/",
+  "ASSIGN_SELECTED_TRIPS": "allocate/assign-trips",
+  "GET_DEPLOYABLE_VEHICLES": "vehicle/deployBySite",
+  "CLAIM_TRIP": "trips/claim",
+  "PLAN_TRIP": "ets/plantrip",
+  "SUBMIT_PLAN_TRIPS": "ets/supervisortrips",
+  "ACTUAL_TRIP": "ets/actualtrip",
+  "SITE_CLIENTS": "site/clients"
+}

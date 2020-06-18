@@ -1,0 +1,13 @@
+{
+  "GET_DEVICE_TOKEN": "device",
+  "VEHICLES_MASTER_BY_SITE": "vehicle-develop/search",
+  "DRIVERS_MASTER_BY_SITE": "driver-develop/search",
+  "VENDORS_MASTER_BY_SITE": "vendor-develop/search",
+  "UPDATE_USER_SITE": "users",
+  "LOGOUT_USER": "oauth/logout",
+  "EVENTS_PUBLISH": "events-develop/publish",
+  "PLAN_TRIP": "ets/plantrip",
+  "SUBMIT_PLAN_TRIPS": "ets/supervisortrips",
+  "ACTUAL_TRIP": "ets/actualtrip",
+  "SITE_CLIENTS": "site/clients"
+}

@@ -1,0 +1,9 @@
+@import '~app/styles/core';
+
+.past-trips {
+  .trips {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 9rem;
+  }
+}

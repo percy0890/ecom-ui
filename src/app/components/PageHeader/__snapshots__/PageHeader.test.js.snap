@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageHeader /> Store renders correctly 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="logo-container"
+  >
+    <img
+      alt="Ecom Logo"
+      className="logo"
+      src="IMAGE_MOCK"
+    />
+  </div>
+  <div
+    className="right-container"
+  >
+    <div
+      className="profile-container"
+    >
+      <div
+        className="profile-btn-container  user-profile"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="profile-name"
+        />
+        <button
+          className="btn btn-transparent profile-button  undefined label-less"
+          type="button"
+        >
+          <div
+            className=" btn-content-container "
+          >
+            <div
+              className="icon-container"
+            >
+              <img
+                alt="button icon"
+                className="icon"
+                src="IMAGE_MOCK"
+              />
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`<PageHeader /> renders correctly 1`] = `
+<PageHeader
+  getMasterDataForSiteId={[MockFunction]}
+  getSiteData={[MockFunction]}
+  isSideDrawerOpen={true}
+  logoutUser={[MockFunction]}
+  siteId="location1"
+  sitesList={
+    Array [
+      Object {
+        "label": "Location 1",
+        "value": "location1",
+      },
+      Object {
+        "label": "Location 2",
+        "value": "location2",
+      },
+    ]
+  }
+  userInfo={
+    Object {
+      "userName": "ABC",
+    }
+  }
+>
+  <header
+    className="header"
+  >
+    <div
+      className="logo-container slide"
+    >
+      <img
+        alt="Ecom Logo"
+        className="logo"
+        src="IMAGE_MOCK"
+      />
+    </div>
+    <div
+      className="right-container"
+    >
+      <UserProfile
+        customClass="user-profile"
+        onLogout={[MockFunction]}
+        profileImage="IMAGE_MOCK"
+      >
+        <div
+          className="profile-container"
+        >
+          <div
+            className="profile-btn-container  user-profile"
+            onClick={[Function]}
+            role="presentation"
+          >
+            <span
+              className="profile-name"
+            />
+            <Button
+              buttonType="transparent"
+              customClass="profile-button"
+              icon="IMAGE_MOCK"
+            >
+              <button
+                className="btn btn-transparent profile-button  undefined label-less"
+                type="button"
+              >
+                <div
+                  className=" btn-content-container "
+                >
+                  <div
+                    className="icon-container"
+                  >
+                    <img
+                      alt="button icon"
+                      className="icon"
+                      src="IMAGE_MOCK"
+                    />
+                  </div>
+                </div>
+              </button>
+            </Button>
+          </div>
+        </div>
+      </UserProfile>
+    </div>
+  </header>
+</PageHeader>
+`;
+
+exports[`<PageHeader /> renders correctly with sidebar closed 1`] = `
+<PageHeader
+  getMasterDataForSiteId={[MockFunction]}
+  getSiteData={[MockFunction]}
+  isSideDrawerOpen={false}
+  logoutUser={[MockFunction]}
+  siteId="location1"
+  sitesList={
+    Array [
+      Object {
+        "label": "Location 1",
+        "value": "location1",
+      },
+      Object {
+        "label": "Location 2",
+        "value": "location2",
+      },
+    ]
+  }
+  userInfo={
+    Object {
+      "userName": "ABC",
+    }
+  }
+>
+  <header
+    className="header"
+  >
+    <div
+      className="logo-container"
+    >
+      <img
+        alt="Ecom Logo"
+        className="logo"
+        src="IMAGE_MOCK"
+      />
+    </div>
+    <div
+      className="right-container"
+    >
+      <UserProfile
+        customClass="user-profile"
+        onLogout={[MockFunction]}
+        profileImage="IMAGE_MOCK"
+      >
+        <div
+          className="profile-container"
+        >
+          <div
+            className="profile-btn-container  user-profile"
+            onClick={[Function]}
+            role="presentation"
+          >
+            <span
+              className="profile-name"
+            />
+            <Button
+              buttonType="transparent"
+              customClass="profile-button"
+              icon="IMAGE_MOCK"
+            >
+              <button
+                className="btn btn-transparent profile-button  undefined label-less"
+                type="button"
+              >
+                <div
+                  className=" btn-content-container "
+                >
+                  <div
+                    className="icon-container"
+                  >
+                    <img
+                      alt="button icon"
+                      className="icon"
+                      src="IMAGE_MOCK"
+                    />
+                  </div>
+                </div>
+              </button>
+            </Button>
+          </div>
+        </div>
+      </UserProfile>
+    </div>
+  </header>
+</PageHeader>
+`;

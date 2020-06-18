@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> renders correctly 1`] = `
+<div
+  className="bg-container"
+>
+  <div
+    className="bg-overlay"
+  >
+    <div
+      className="pre-form-wrap"
+    >
+      <h1
+        className="login-h1"
+      >
+        Welcome
+      </h1>
+      <Button
+        buttonType="secondary"
+        customClass="login-btn"
+        label="Login to Ecom App"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

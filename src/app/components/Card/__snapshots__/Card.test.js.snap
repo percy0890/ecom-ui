@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component renders correctly 1`] = `
+<div
+  className="card-container cursor-pointer"
+  onClick={[Function]}
+  role="presentation"
+>
+  <div
+    className="left-container undefined"
+  >
+    <div
+      className="title-block"
+    >
+      <div
+        className="title"
+      >
+        N/A
+      </div>
+    </div>
+    <div
+      className="description-block"
+    >
+      <div>
+        N/A
+      </div>
+      <div
+        className="time"
+      >
+        N/A
+        -
+        N/A
+      </div>
+    </div>
+  </div>
+  <div
+    className="right-container  "
+  >
+    <div
+      className="upper-right-container  "
+    >
+      <div
+        className="shift-id-block"
+      >
+        <span>
+          SHIFT ID: 
+        </span>
+        <span
+          className="shift-id"
+        >
+          N/A
+        </span>
+      </div>
+    </div>
+    <div
+      className="address-container"
+    >
+      <div
+        className="address-indicator-block"
+      />
+      <div
+        className="address"
+      >
+        <span>
+          N/A
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,100 @@
+@import '~app/styles/core.scss';
+
+.btn {
+  border: 1px solid transparent;
+  color: $app-text-white;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 1.3rem 1.5rem;
+  font-family: $app-font-bold;
+  border-radius: 3px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  .btn-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &.label-less {
+    padding: 1rem;
+    outline: none;
+  }
+
+  &-primary {
+    background-color: $brand-color-primary;
+    color: $app-text-white;
+    box-shadow: $app-shadow-element;
+    border: 1px solid $brand-color-primary;
+
+    &.invert {
+      color: $brand-color-primary;
+      background-color: $app-bg-white;
+    }
+  }
+
+  &-secondary {
+    background-color: $brand-color-secondary;
+    color: $app-text-white;
+    box-shadow: $app-shadow-element;
+    border: 1px solid $brand-color-secondary;
+
+    &.invert {
+      color: $brand-color-secondary;
+      background-color: $app-bg-white;
+    }
+  }
+
+  &-transparent {
+    background-color: transparent;
+    color: $brand-color-primary;
+  }
+
+  &-default {
+    background-color: $app-text-white;
+    color: $app-text-primary;
+    border: 1px solid $app-border-color;
+    box-shadow: $app-shadow-element;
+
+    &.invert {
+      color: $app-bg-white;
+      background-color: $app-text-primary;
+    }
+  }
+
+  &-inactive {
+    background-color: $app-bg-container;
+    color: $app-text-primary;
+    box-shadow: $app-shadow-element;
+  }
+
+  .icon-container {
+    display: flex;
+    margin-left: 0.5rem;
+
+    .icon {
+      height: 1.6rem;
+    }
+  }
+
+  .label {
+    font-size: 1.8rem;
+    font-family: $app-font-bold;
+  }
+
+  .label-less .icon-container {
+    margin: 0;
+  }
+
+  &-reverse {
+    flex-direction: row-reverse;
+
+    .icon-container {
+      margin-left: 0;
+      margin-right: 0.5rem;
+    }
+  }
+}

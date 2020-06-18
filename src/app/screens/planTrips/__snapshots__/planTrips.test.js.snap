@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlanTrips /> renders correctly 1`] = `
+<div
+  className="planed-trips"
+>
+  <div
+    className="title-container"
+  >
+    <h1
+      className="page-title"
+    >
+      Plan Trips
+    </h1>
+    <div
+      className="action-btns-container"
+    >
+      <img
+        alt="add trips"
+        className="icon-width"
+        onClick={[Function]}
+        role="presentation"
+        src="IMAGE_MOCK"
+      />
+      <img
+        alt="submit trips"
+        className="icon-width ml"
+        onClick={[Function]}
+        role="presentation"
+        src="IMAGE_MOCK"
+      />
+    </div>
+  </div>
+  <div
+    className="page-content trips"
+  >
+    <div
+      className="card-container cursor-pointer"
+      onClick={[Function]}
+      role="presentation"
+    >
+      <div
+        className="left-container login-container"
+      >
+        <div
+          className="title-block"
+        >
+          <img
+            alt="dots"
+            className="image"
+            src="IMAGE_MOCK"
+          />
+          <div
+            className="title"
+          >
+            LOGIN
+          </div>
+        </div>
+        <div
+          className="description-block"
+        >
+          <div>
+            30/01/2020
+          </div>
+          <div
+            className="time"
+          >
+            11:30
+            -
+            12:45
+          </div>
+        </div>
+      </div>
+      <div
+        className="right-container  "
+      >
+        <div
+          className="upper-right-container  "
+        >
+          <div
+            className="shift-id-block"
+          >
+            <span>
+              SHIFT ID: 
+            </span>
+            <span
+              className="shift-id"
+            >
+              12:45
+            </span>
+          </div>
+        </div>
+        <div
+          className="address-container"
+        >
+          <div
+            className="address-indicator-block"
+          >
+            <img
+              alt="dots"
+              src="IMAGE_MOCK"
+            />
+          </div>
+          <div
+            className="address"
+          >
+            <span>
+              52?2nd Cross? 2nd Main? MR Garden? Near KEB? Layout? Geddalahalli? Sanjaynagar? Bangalore - 560094
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Trips /> renders correctly 1`] = `
+<div
+  className="past-trips"
+>
+  <h1
+    className="page-title"
+  >
+    Past Trips
+  </h1>
+  <div
+    className="page-content trips"
+  >
+    <div
+      className="no-trips-msg"
+    >
+      There are no past trips available.
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,323 @@
+@import '~app/styles/core';
+
+.card-container {
+  display: flex;
+  background-color: $app-trip-card-bg;
+  width: 46%;
+  box-shadow: $app-shadow-container;
+  border-radius: 0.5rem;
+  margin: 2rem;
+
+  .left-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: $app-trip-card-bg;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    padding: 2.5rem 2rem;
+
+    .title-block {
+      display: flex;
+      font-family: $app-font-bold;
+      align-items: center;
+      padding: 0.3rem 0;
+      font-size: 1.4rem;
+
+      &.center-align {
+        justify-content: center;
+      }
+
+      .checked-image {
+        width: 7rem;
+      }
+
+      .title {
+        margin-left: 0.6rem;
+      }
+
+      .image {
+        width: 2rem;
+      }
+    }
+
+    .description-block {
+      margin-top: 1.5rem;
+
+      .time {
+        font-family: $app-font-bold;
+      }
+    }
+
+    &.logout-container {
+      background-color: $app-logout-color;
+    }
+
+    &.login-container {
+      background-color: $app-login-color;
+    }
+  }
+
+  .right-container {
+    flex: 3.2;
+    display: flex;
+    flex-direction: column;
+
+    .shifts-pickup {
+      background-color: $app-shift-pickup !important;
+      border-radius: 0.8rem;
+    }
+
+    .shifts-drop {
+      background-color: $app-shift-drop !important;
+      border-radius: 0.8rem;
+    }
+
+    .upper-right-container {
+      margin: 1rem 1.5rem;
+      padding: 0.5rem 1rem;
+      background-color: $app-container-color;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 0.6rem;
+
+      .shift-id-block {
+        font-family: $app-font-medium;
+
+        .shift-id {
+          font-family: $app-font-bold;
+        }
+      }
+
+      .shift-icon {
+        width: 2rem;
+      }
+    }
+
+    .address-container {
+      margin: 0 1.5rem 1rem;
+      display: flex;
+
+      .address-indicator-block {
+        img {
+          width: 1.1rem;
+        }
+      }
+
+      .address {
+        padding-left: 0.8rem;
+        font-family: $app-font-regular;
+      }
+    }
+  }
+
+  .select-card-pickup {
+    background-color: $app-drop-select;
+  }
+
+  .select-card-drop {
+    background-color: $app-pickup-select;
+  }
+}
+
+@include media(tablet up) {
+  .card-container {
+    width: 46%;
+    margin: 0.75rem 0.75rem;
+  }
+}
+
+@include media(mobile down) {
+  .card-container {
+    width: 100%;
+    margin: 0.75rem 0;
+  }
+}
+
+.card-container-open {
+  background-color: $app-trip-card-bg;
+  width: 46%;
+  box-shadow: $app-shadow-container;
+  border-radius: 0.5rem;
+  margin: 2rem;
+
+  .upper-container {
+    display: flex;
+    color: $app-trip-card-bg;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+
+    &.logout-container {
+      background-color: $app-login-color;
+    }
+
+    &.login-container {
+      background-color: $app-logout-color;
+    }
+
+    .shift-type-block {
+      flex: 1;
+      display: flex;
+      font-family: $app-font-bold;
+      align-items: center;
+
+      .shift-type {
+        flex: 8;
+        margin: 0.2rem 1rem;
+      }
+
+      .image {
+        width: 2rem;
+      }
+    }
+
+    .shift-id-container {
+      flex: 2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .shift-id {
+        padding: 0 1rem;
+        font-family: $app-font-regular;
+
+        .text {
+          font-family: $app-font-bold;
+        }
+      }
+
+      .image {
+        width: 2rem;
+      }
+    }
+  }
+
+  .bottom-container {
+    padding: 1.5rem;
+    font-family: $app-font-regular;
+
+    .booking-id {
+      font-family: $app-font-regular;
+      padding: 1rem 0;
+
+      .text {
+        font-family: $app-font-bold;
+      }
+    }
+
+    .location-container {
+      overflow: hidden;
+
+      .row-wrap {
+        display: flex;
+        margin: 1.5rem 0;
+        font-family: $app-font-regular;
+
+        .date-time {
+          line-height: 2.2rem;
+          flex-shrink: 0;
+          padding-right: 2.5rem;
+
+          .time {
+            font-family: $app-font-bold;
+            font-size: 1.8rem;
+          }
+        }
+
+        .address-box {
+          display: flex;
+          flex-grow: 1;
+
+          .indicator {
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 50%;
+            flex-shrink: 0;
+            position: relative;
+
+            &.green {
+              background-color: #7BC141;
+
+              &:after {
+                content: '';
+                width: 2px;
+                border-right: 2px dotted $app-border-color;
+                position: absolute;
+                top: 1.5rem;
+                left: calc(50% - 1px);
+                height: 100px;
+              }
+            }
+
+            &.red {
+              background-color: #CE2B04;
+
+              &:after {
+                content: '';
+                width: 1.5rem;
+                background-color: #fff;
+                position: absolute;
+                top: 1.5rem;
+                left: 0;
+                height: 50px;
+              }
+            }
+          }
+        }
+
+        .text {
+          padding-left: 1rem;
+          font-size: 1.8rem;
+        }
+      }
+    }
+
+    .info-container {
+      .info-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+
+        .info-field {
+          width: 48%;
+          line-height: 3rem;
+
+          .label {
+            color: $brand-color-primary;
+            font-family: $app-font-bold;
+          }
+
+          .value {
+            padding: 0.5rem 1rem;
+            background-color: $app-bg-body;
+            border-radius: 0.6rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media(tablet up) {
+  .card-container-open {
+    width: 46%;
+    margin: 0.75rem 0.75rem;
+  }
+}
+
+@include media(mobile down) {
+  .card-container-open {
+    width: 100% !important;
+    margin: 0.75rem 0rem !important;
+
+    .image {
+      width: 2rem !important;
+    }
+
+    .dotted-image {
+      height: 62.8% !important;
+    }
+  }
+}
